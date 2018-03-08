@@ -4,8 +4,8 @@ public class Day03 {
 
     //1.判断是否为闰年
     static boolean Year(int year) {
-        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ;
-        return false;
+        return (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ;
+        
     }
 
     // 2.求给定年有多少天
